@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Downloads/TS Recommended Apps"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "personal portfolio"
+	}
+}
