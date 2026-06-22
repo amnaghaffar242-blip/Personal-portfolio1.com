@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2458707204.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                      <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+            <p>Web Developer</p>
+        <h1>Hi I'm<span>Amna</span><br>From Pakistan</h1>
+        </div>
+        </div>
+    </div>
+    <!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="member1(1).jpg">
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                             <p>Hi, I'm Amna, a passionate and dedicated web development student from Pakistan.
+                             I enjoy designing and developing responsive websites that provide a great user experience.
+                             Currently, I am improving my skills in HTML, CSS, JavaScript, and modern web technologies.
+                             I am always eager to learn new things and take on challenging projects to grow as a developer.</p>
+                             <div class="tab-titles">
+                                <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                             </div>
+                             <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                                    <li><span>Web development</span><br>Web App development</li>
+                                    <li><span>App development</span><br>Building Android/Ios App</li>
+
+                                </ul>
+                             </div>
+
+
+                              <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>2021 - current</span><br> Training Designing Web/App Interfaces at ET</li>
+                                    <li><span>2019 - 2021</span><br>Web App development At cambridge university</li>
+                                    <li><span>2023-2024</span><br>Building Android/Ios App in China</li>
+
+                                </ul>
+                             </div>
+
+
+
+                              <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2016</span><br>BBA from ISA Banglore</li>
+                                    <li><span>2019</span><br>UI/UX at China</li>
+                                    <li><span>2020</span><br>MBA from America</li>
+
+                                </ul>
+                             </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+               <!--services-->
+                   <div  id="services">
+                        <div class="container">
+                                <h1 class="sub-title">My Services</h1>
+                                <div class="services-list">
+                                    <div>
+                                        <i class="fa-solid fa-code"></i>
+                                        <h2>Web Design</h2>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, eum. Sequi deserunt similique sapiente tempora possimus impedit sint hic tenetur quam, vero rerum omnis quas cum quisquam facilis saepe illum.</p>
+                                        <a href="#">Learn More</a>
+
+                                    </div>
+
+                                    <div>
+                                        <i class="fa-brands fa-app-store"></i>
+                                        <h2>App Design</h2>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, eum. Sequi deserunt similique sapiente tempora possimus impedit sint hic tenetur quam, vero rerum omnis quas cum quisquam facilis saepe illum.</p>
+                                        <a href="#">Learn More</a>
+
+                                    </div>
+
+                                    <div>
+                                        <i class="fa-solid fa-crop"></i>
+                                        <h2>UI/UX Design</h2>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, eum. Sequi deserunt similique sapiente tempora possimus impedit sint hic tenetur quam, vero rerum omnis quas cum quisquam facilis saepe illum.</p>
+                                        <a href="#">Learn More</a>
+
+                                    </div>
+                                </div>
+
+
+                         </div>
+                   </div>
+                   <!--portfolio-->
+
+                   <div id="portfolio">
+                    <div class="container">
+                        <h1 class="sub-title">My Work</h1>
+                        <div class="work-list">
+                            <div class="work">
+                                <img src="work-1.png" >
+                                <div class="layer">
+                                    <h3>Social Media App</h3>
+                                    <p>Social Media Platform is a modern web application that enables users to connect, share content, and interact with others online.</p>
+                                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+
+                             <div class="work">
+                                <img src="work-2.png" >
+                                <div class="layer">
+                                    <h3>Online Shopping App</h3>
+                                    <p>An online shopping application that allows users to browse products, add items to the cart, and make purchases through a simple and user-friendly interface.</p>
+                                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+
+                             <div class="work">
+                                <img src="work-3.png" >
+                                <div class="layer">
+                                    <h3>Music App</h3>
+                                    <p>A modern music player application that enables users to play, pause, and manage their favorite songs with an attractive and responsive design.</p>
+                                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn">See More</a>
+
+                    </div>
+                   </div>
+
+                   <!--contact-->
+                   <div id="contact">
+                    <div class="container">
+                        <div class="row">
+                            <div class="contact-left">
+                                <h1 class="sub-titles">Contact Me</h1>
+                                <p><i class="fa-solid fa-paper-plane"></i>amnaghaffar242@gmail.com</p>
+                                <P><i class="fa-solid fa-square-phone"></i>03027051153</P>
+                                <div class="social-icons">
+                                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                                <a href="Amna-CV.pdf.pdf" class="btn btn2">Download CV</a>
+                            </div>
+                            <div class="contact-right">
+                                <form id="contactForm">
+                                    <input type="text" id="Name" placeholder="Your Name" required>
+                                    <input type="email" id="Email" placeholder="Your Email" required>
+                                    <textarea id="Message" rows="6" placeholder="Your Message"></textarea>
+                                    <button type="Submit" class="btn btn2">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="copyright">
+                         <p>Copyright @ Amna from <i class="fa-solid fa-heart"></i>Web development</p>   
+                        </div>
+                    </div>
+                   </div>
+    
+
+   <script>
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+
+    for(let tablink of tablinks){
+        tablink.classList.remove("active-links");
+    }
+
+    for(let tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+
+    event.currentTarget.classList.add("active-links");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+<script>
+document.getElementById("contactForm").addEventListener("submit", function(e){
+  e.preventDefault();
+
+  fetch("https://script.google.com/macros/s/AKfycbwClyGcb33kDvtWYmg1tiLTSoSSvHTk-7Cuze1hJZYjx1LyGn_KfMbT3PJChNoYOMtXhQ/exec", {
+    method: "POST",
+    body: JSON.stringify({
+      name: document.getElementById("Name").value,
+      email: document.getElementById("Email").value,
+      message: document.getElementById("Message").value
+    })
+  })
+  .then(res => res.text())
+  .then(data => {
+    alert("Message Sent Successfully!");
+    document.getElementById("contactForm").reset();
+  })
+  .catch(err => alert("Error sending message!"));
+});
+</script>
+
+
+<script>
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+</script>
+    
+</body>
+</html>
